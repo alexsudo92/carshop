@@ -10,6 +10,7 @@ export function Header() {
         </Link>
         <nav className="hidden gap-6 text-base md:flex">
           <Link href="/catalog" className="hover:underline">Каталог</Link>
+          <Link href="/profile" className="hover:underline">Личный кабинет</Link>
           <Link href="/about" className="hover:underline">О нас</Link>
           <Link href="/support" className="hover:underline">Поддержка</Link>
         </nav>
