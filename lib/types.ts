@@ -28,7 +28,6 @@ export type Car = {
   year: number;
   basePrice: number;
   heroImage: string;
-  gallery: string[];
   description: string;
   specs: CarSpecs;
   highlights: string[];
