@@ -17,6 +17,7 @@ export default function CatalogPage() {
               <div className="space-y-3 p-6">
                 <h2 className="text-2xl font-semibold">{car.brand} {car.model}</h2>
                 <p className="text-slate-700">{car.description}</p>
+                <p className="text-sm text-slate-600">{car.specs.body} • {car.specs.drivetrain} • {car.engineOptions.length} варианта двигателя</p>
                 <p className="text-xl font-medium">от ${car.basePrice.toLocaleString("en-US")}</p>
                 <Link href={`/car/${car.id}`} className="inline-block rounded-full bg-black px-5 py-2 text-white">Открыть конфигуратор</Link>
               </div>

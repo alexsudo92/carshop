@@ -66,7 +66,7 @@ export function Configurator({ car }: { car: Car }) {
   );
 }
 
-function OptionSection({ title, options, active, onChange }: { title: string; options: { id: string; name: string; priceModifier: number }[]; active: string; onChange: (id: string) => void; }) {
+function OptionSection({ title, options, active, onChange }: { title: string; options: { id: string; name: string; priceModifier: number; power?: string }[]; active: string; onChange: (id: string) => void; }) {
   return (
     <div>
       <h3 className="mb-2 text-lg font-semibold">{title}</h3>
@@ -74,6 +74,7 @@ function OptionSection({ title, options, active, onChange }: { title: string; op
         {options.map((opt) => (
           <button key={opt.id} onClick={() => onChange(opt.id)} className={`rounded-xl border border-slate-300 p-3 text-left transition ${active === opt.id ? "border-slate-900 bg-slate-900 text-white" : "bg-white text-slate-900 hover:border-slate-400"}`}>
             <p className="font-medium">{opt.name}</p>
+            {opt.power && <p className="text-xs opacity-80">{opt.power}</p>}
             <p className="text-sm">{opt.priceModifier ? `+ $${opt.priceModifier.toLocaleString("en-US")}` : "Включено"}</p>
           </button>
         ))}
