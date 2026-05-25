@@ -1,0 +1,13 @@
+[
+  {
+    "id": "admin",
+    "username": "admin",
+    "fullName": "Администратор",
+    "phone": "+7 900 000-00-00",
+    "password": "admin",
+    "birthDate": "1990-01-01",
+    "paymentMethods": [
+      "Банковская карта **** 0000"
+    ]
+  }
+]

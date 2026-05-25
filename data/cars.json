@@ -5,33 +5,86 @@
     "model": "911 Carrera",
     "year": 2026,
     "basePrice": 132800,
-    "heroImage": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "/api/images/porsche-911-main.svg",
     "gallery": [
-      "https://images.unsplash.com/photo-1614200187524-dc4b892acf16?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1400&q=80"
+      "/api/images/porsche-911-gallery-1.svg",
+      "/api/images/porsche-911-gallery-2.svg"
     ],
     "description": "Культовое спортивное купе с задним приводом и высокой повседневной пригодностью.",
     "engineOptions": [
-      { "id": "carrera", "name": "Carrera", "priceModifier": 0, "power": "394 л.с." },
-      { "id": "carrera-s", "name": "Carrera S", "priceModifier": 19800, "power": "480 л.с." }
+      {
+        "id": "carrera",
+        "name": "Carrera",
+        "priceModifier": 0,
+        "power": "394 л.с."
+      },
+      {
+        "id": "carrera-s",
+        "name": "Carrera S",
+        "priceModifier": 19800,
+        "power": "480 л.с."
+      }
     ],
     "colors": [
-      { "id": "black", "name": "Jet Black Metallic", "hex": "#1a1a1a", "priceModifier": 0 },
-      { "id": "silver", "name": "GT Silver Metallic", "hex": "#8f9499", "priceModifier": 2200 },
-      { "id": "red", "name": "Carmine Red", "hex": "#9a1c24", "priceModifier": 3100 }
+      {
+        "id": "black",
+        "name": "Jet Black Metallic",
+        "hex": "#1a1a1a",
+        "priceModifier": 0
+      },
+      {
+        "id": "silver",
+        "name": "GT Silver Metallic",
+        "hex": "#8f9499",
+        "priceModifier": 2200
+      },
+      {
+        "id": "red",
+        "name": "Carmine Red",
+        "hex": "#9a1c24",
+        "priceModifier": 3100
+      }
     ],
     "wheels": [
-      { "id": "19", "name": "19-inch Carrera", "priceModifier": 0 },
-      { "id": "20", "name": "20/21-inch RS Spyder", "priceModifier": 3600 }
+      {
+        "id": "19",
+        "name": "19-inch Carrera",
+        "priceModifier": 0
+      },
+      {
+        "id": "20",
+        "name": "20/21-inch RS Spyder",
+        "priceModifier": 3600
+      }
     ],
     "interior": [
-      { "id": "black", "name": "Black Leather", "priceModifier": 0 },
-      { "id": "beige", "name": "Two-tone Beige", "priceModifier": 2800 }
+      {
+        "id": "black",
+        "name": "Black Leather",
+        "priceModifier": 0
+      },
+      {
+        "id": "beige",
+        "name": "Two-tone Beige",
+        "priceModifier": 2800
+      }
     ],
     "packages": [
-      { "id": "sport-chrono", "name": "Sport Chrono Package", "priceModifier": 3500 },
-      { "id": "premium", "name": "Premium Package", "priceModifier": 5200 },
-      { "id": "assist", "name": "Driver Assist", "priceModifier": 2900 }
+      {
+        "id": "sport-chrono",
+        "name": "Sport Chrono Package",
+        "priceModifier": 3500
+      },
+      {
+        "id": "premium",
+        "name": "Premium Package",
+        "priceModifier": 5200
+      },
+      {
+        "id": "assist",
+        "name": "Driver Assist",
+        "priceModifier": 2900
+      }
     ]
   },
   {
@@ -40,33 +93,86 @@
     "model": "Cayenne",
     "year": 2026,
     "basePrice": 92900,
-    "heroImage": "https://images.unsplash.com/photo-1542282088-fe8426682b8f?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "/api/images/porsche-cayenne-main.svg",
     "gallery": [
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1400&q=80",
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1400&q=80"
+      "/api/images/porsche-cayenne-gallery-1.svg",
+      "/api/images/porsche-cayenne-gallery-2.svg"
     ],
     "description": "Премиальный SUV для города и дальних путешествий.",
     "engineOptions": [
-      { "id": "base", "name": "Cayenne", "priceModifier": 0, "power": "353 л.с." },
-      { "id": "e-hybrid", "name": "Cayenne E-Hybrid", "priceModifier": 13400, "power": "470 л.с." }
+      {
+        "id": "base",
+        "name": "Cayenne",
+        "priceModifier": 0,
+        "power": "353 л.с."
+      },
+      {
+        "id": "e-hybrid",
+        "name": "Cayenne E-Hybrid",
+        "priceModifier": 13400,
+        "power": "470 л.с."
+      }
     ],
     "colors": [
-      { "id": "white", "name": "Carrara White", "hex": "#ececec", "priceModifier": 0 },
-      { "id": "blue", "name": "Moonlight Blue", "hex": "#2f3f67", "priceModifier": 2000 },
-      { "id": "grey", "name": "Quartzite Grey", "hex": "#63656a", "priceModifier": 2500 }
+      {
+        "id": "white",
+        "name": "Carrara White",
+        "hex": "#ececec",
+        "priceModifier": 0
+      },
+      {
+        "id": "blue",
+        "name": "Moonlight Blue",
+        "hex": "#2f3f67",
+        "priceModifier": 2000
+      },
+      {
+        "id": "grey",
+        "name": "Quartzite Grey",
+        "hex": "#63656a",
+        "priceModifier": 2500
+      }
     ],
     "wheels": [
-      { "id": "20", "name": "20-inch Cayenne Design", "priceModifier": 0 },
-      { "id": "22", "name": "22-inch Sport Classic", "priceModifier": 4100 }
+      {
+        "id": "20",
+        "name": "20-inch Cayenne Design",
+        "priceModifier": 0
+      },
+      {
+        "id": "22",
+        "name": "22-inch Sport Classic",
+        "priceModifier": 4100
+      }
     ],
     "interior": [
-      { "id": "black", "name": "Black Interior", "priceModifier": 0 },
-      { "id": "truffle", "name": "Truffle Brown", "priceModifier": 3100 }
+      {
+        "id": "black",
+        "name": "Black Interior",
+        "priceModifier": 0
+      },
+      {
+        "id": "truffle",
+        "name": "Truffle Brown",
+        "priceModifier": 3100
+      }
     ],
     "packages": [
-      { "id": "offroad", "name": "Off-Road Package", "priceModifier": 2400 },
-      { "id": "bose", "name": "BOSE® Surround", "priceModifier": 1800 },
-      { "id": "rear-steer", "name": "Rear-Axle Steering", "priceModifier": 2600 }
+      {
+        "id": "offroad",
+        "name": "Off-Road Package",
+        "priceModifier": 2400
+      },
+      {
+        "id": "bose",
+        "name": "BOSE® Surround",
+        "priceModifier": 1800
+      },
+      {
+        "id": "rear-steer",
+        "name": "Rear-Axle Steering",
+        "priceModifier": 2600
+      }
     ]
   }
 ]
