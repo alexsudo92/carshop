@@ -27,3 +27,13 @@ export type Car = {
   interior: ConfigOption[];
   packages: ConfigOption[];
 };
+
+export type UserProfile = {
+  id: string;
+  username: string;
+  fullName: string;
+  phone: string;
+  password: string;
+  birthDate: string;
+  paymentMethods: string[];
+};
