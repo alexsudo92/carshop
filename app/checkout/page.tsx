@@ -1,5 +1,6 @@
 import { checkoutAction } from "@/app/actions";
 import { Header } from "@/components/header";
+import { CheckoutSuccessModal } from "@/components/checkout-success-modal";
 import { getCurrentUsername } from "@/lib/auth";
 import { getUserByUsername } from "@/lib/store";
 import { redirect } from "next/navigation";
@@ -47,6 +48,7 @@ export default async function CheckoutPage({
           </ul>
         </section>
       </main>
+      <CheckoutSuccessModal openInitially={Boolean(success)} />
     </div>
   );
 }

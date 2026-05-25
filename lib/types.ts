@@ -12,6 +12,15 @@ export type EngineOption = ConfigOption & {
   power: string;
 };
 
+export type CarSpecs = {
+  body: string;
+  drivetrain: string;
+  acceleration: string;
+  topSpeed: string;
+  consumption: string;
+  transmission: string;
+};
+
 export type Car = {
   id: string;
   brand: string;
@@ -19,8 +28,9 @@ export type Car = {
   year: number;
   basePrice: number;
   heroImage: string;
-  gallery: string[];
   description: string;
+  specs: CarSpecs;
+  highlights: string[];
   engineOptions: EngineOption[];
   colors: ColorOption[];
   wheels: ConfigOption[];
