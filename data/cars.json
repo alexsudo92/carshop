@@ -5,10 +5,10 @@
     "model": "911 Carrera",
     "year": 2026,
     "basePrice": 132800,
-    "heroImage": "/api/images/porsche-911-main.svg",
+    "heroImage": "/api/images/porsche-911-main.jpg",
     "gallery": [
-      "/api/images/porsche-911-gallery-1.svg",
-      "/api/images/porsche-911-gallery-2.svg"
+      "/api/images/porsche-911-gallery-1.jpg",
+      "/api/images/porsche-911-gallery-2.jpg"
     ],
     "description": "Культовое спортивное купе с задним приводом и высокой повседневной пригодностью.",
     "engineOptions": [
@@ -93,10 +93,10 @@
     "model": "Cayenne",
     "year": 2026,
     "basePrice": 92900,
-    "heroImage": "/api/images/porsche-cayenne-main.svg",
+    "heroImage": "/api/images/porsche-cayenne-main.jpg",
     "gallery": [
-      "/api/images/porsche-cayenne-gallery-1.svg",
-      "/api/images/porsche-cayenne-gallery-2.svg"
+      "/api/images/porsche-cayenne-gallery-1.jpg",
+      "/api/images/porsche-cayenne-gallery-2.jpg"
     ],
     "description": "Премиальный SUV для города и дальних путешествий.",
     "engineOptions": [
