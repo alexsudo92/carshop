@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Оформление заказа — AutoMarket Studio</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="checkout">
+  <header id="site-header" class="site-header"></header>
+  <main class="container grid two-col" style="max-width:1024px;">
+    <section class="card card-pad">
+      <h1>Оформление заказа</h1>
+      <p class="muted">Данные покупателя автоматически подставлены из личного кабинета.</p>
+      <form id="checkout-form">
+        <div class="field"><label for="checkout-fullName">ФИО</label><input id="checkout-fullName" readonly></div>
+        <div class="field"><label for="checkout-phone">Номер телефона</label><input id="checkout-phone" readonly></div>
+        <div class="field"><label for="checkout-birthDate">Дата рождения</label><input id="checkout-birthDate" readonly></div>
+        <div class="field"><label for="checkout-payment">Способ оплаты</label><select id="checkout-payment" required><option value="">Выберите способ оплаты</option></select></div>
+        <p id="checkout-message" class="message" hidden></p>
+        <button type="submit" class="btn btn-full">Отправить заявку</button>
+      </form>
+    </section>
+    <section class="card card-pad">
+      <div id="checkout-car"></div>
+      <h2>Что дальше</h2>
+      <ul>
+        <li>Менеджер свяжется с вами в течение 30 минут в рабочее время.</li>
+        <li>Подтвердим наличие и сроки поставки.</li>
+        <li>Согласуем трейд-ин, кредит или лизинг при необходимости.</li>
+      </ul>
+    </section>
+  </main>
+  <div id="success-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="success-title">
+    <div class="modal-box">
+      <h2 id="success-title">Заявка подтверждена</h2>
+      <p class="muted">Спасибо! Мы уже получили вашу заявку и скоро свяжемся с вами.</p>
+      <button id="modal-close" type="button" class="btn btn-full">Закрыть</button>
+    </div>
+  </div>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
