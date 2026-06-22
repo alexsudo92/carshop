@@ -5,7 +5,7 @@ window.AUTOMARKET_CARS = [
     "model": "911 Carrera",
     "year": 2026,
     "basePrice": 132800,
-    "heroImage": "/data/images/porsche-911-main.jpg",
+    "heroImage": "../images/porsche-911-main.jpg",
     "description": "Культовое спортивное купе с задним приводом, точной управляемостью и выдающейся динамикой для ежедневных поездок.",
     "engineOptions": [
       {
@@ -135,7 +135,7 @@ window.AUTOMARKET_CARS = [
     "model": "Cayenne",
     "year": 2026,
     "basePrice": 92900,
-    "heroImage": "/data/images/porsche-cayenne-main.jpg",
+    "heroImage": "../images/porsche-cayenne-main.jpg",
     "description": "Премиальный SUV с просторным салоном, полным приводом и сбалансированным комфортом на трассе и в городе.",
     "engineOptions": [
       {
@@ -265,7 +265,7 @@ window.AUTOMARKET_CARS = [
     "model": "Panamera 4",
     "year": 2026,
     "basePrice": 108700,
-    "heroImage": "/data/images/porsche-panamera-main.jpg",
+    "heroImage": "../images/porsche-panamera-main.jpg",
     "description": "Спортивный лифтбек бизнес-класса с полным приводом и высоким уровнем цифрового комфорта.",
     "specs": {
       "body": "Лифтбек",
@@ -363,7 +363,7 @@ window.AUTOMARKET_CARS = [
     "model": "Taycan 4S",
     "year": 2026,
     "basePrice": 119400,
-    "heroImage": "/data/images/porsche-taycan-main.jpg",
+    "heroImage": "../images/porsche-taycan-main.jpg",
     "description": "Полностью электрический спортседан с мгновенным откликом и быстрой зарядкой 800V.",
     "specs": {
       "body": "Седан",

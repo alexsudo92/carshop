@@ -16,7 +16,7 @@
   }
 
   function pageUrl(name) {
-    return '/pages/' + name + '.html';
+    return name + '.html';
   }
 
   function getUsers() {
@@ -65,7 +65,7 @@
   }
 
   function imagePath(path) {
-    return String(path || '').replace('/data/images/', '/data/images/');
+    return String(path || '').replace('data/images/', 'data/images/');
   }
 
   function renderHeader() {
